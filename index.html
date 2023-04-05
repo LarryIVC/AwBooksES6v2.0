@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <h3>Awesome Books</h3>
+      <nav>
+        <ul>
+          <li><a href="#Lis"></a>List</li>
+          <li><a href="#Add new"></a>Add new</li>
+          <li><a href="#Contact"></a>Contact</li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  <main>
+    <div class="book-list-container">
+      <h1>All Awesome Books</h1>
+    <ul id="book-list"></ul>
+    </div>
+  <form id="add-book-form">
+    <h2>Add a new book</h2>
+    <label for="title-input"></label>
+    <input type="text" id="title-input" name="title" placeholder="Title">
+    <label for="author-input"></label>
+    <input type="text" id="author-input" name="author" placeholder="Author">
+    <button type="submit" id="add-button">Add</button>
+  </form>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
